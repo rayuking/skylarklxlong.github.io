@@ -16,13 +16,13 @@ group: navigation
 
 <p>
 这个博客是使用 
-<a href="http://baixin.io"> leopardpan </a>
-博客的模版所搭建的。在此非常感谢！<a href="https://github.com/leopardpan/leopardpan.github.io"> leopard </a>是一个简洁的博客模板，如果你也喜欢请 Star ，你的 Star 是开发者持续更新的动力, 谢谢 😄.
+<a href="https://onevcat.com/"> Vno - Jekyll </a>
+博客的模版所搭建的。在此非常感谢！<a href="https://github.com/skylarklxlong/skylarklxlong.github.io"> Vno - Jekyll </a>是一个简洁的博客模板，如果你也喜欢请 Star ，你的 Star 是开发者持续更新的动力, 谢谢 😄.
 
 <p>
 
 如果你想搭建一个跟我一样的博客，可以看我的 
-<a href="/2016/10/jekyll_tutorials1/"> Jekyll 搭建个人博客 </a>
+<a href="/2017/08/jekyll-blog-build/"> 使用Jekyll + GitHub Pages搭建个人博客 </a>
 教程
 
 <p>
