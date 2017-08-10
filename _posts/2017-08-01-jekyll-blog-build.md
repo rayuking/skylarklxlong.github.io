@@ -7,7 +7,7 @@ tags: [GitHub Pages, Jekyll, 博客]
 
 ### 前言
 
-一直就想搭建一个属于自己的博客网站，但是一直拖着没有执行，在一次偶然的机会看到了鸿洋大神的 [如何利用github打造博客专属域名](http://blog.csdn.net/lmj623565791/article/details/51319147)，就心血来潮，马上自己动手做了一个，耗时了近一个星期，终于差不多完成了，特意记录下来，供他人参考。
+一直就想搭建一个属于自己的博客网站，但是一直拖着没有执行，在一次偶然的机会看到了鸿洋大神的 <a href="http://blog.csdn.net/lmj623565791/article/details/51319147" target="_blank">如何利用github打造博客专属域名</a>，就心血来潮，马上自己动手做了一个，耗时了近一个星期，终于差不多完成了，特意记录下来，供他人参考。
 
 ### 目录
 
@@ -27,11 +27,11 @@ tags: [GitHub Pages, Jekyll, 博客]
 
 ### <a name="about-jekyll"></a>关于Jekyll
 
- 　Jekyll 是一个免费的生成静态网页的工具，不需要数据库支持。它有一个模版目录，其中包含原始文本格式的文档，通过 Markdown （或者 Textile） 以及 Liquid 转化成一个完整的可发布的静态网站，可以配合第三方服务例如： Disqus（评论）、多说(评论) 以及分享 等等扩展功能，Jekyll 可以直接部署在 Github（国外） 或 Coding（国内） 上，可以绑定自己的域名。[Jekyll中文文档](http://jekyll.bootcss.com/)、[Jekyll英文文档](https://jekyllrb.com/)、[Jekyll主题列表](http://jekyllthemes.org/)。
+ 　Jekyll 是一个免费的生成静态网页的工具，不需要数据库支持。它有一个模版目录，其中包含原始文本格式的文档，通过 Markdown （或者 Textile） 以及 Liquid 转化成一个完整的可发布的静态网站，可以配合第三方服务例如： Disqus（评论）、多说(评论) 以及分享 等等扩展功能，Jekyll 可以直接部署在 Github（国外） 或 Coding（国内） 上，可以绑定自己的域名。<a href="http://jekyll.bootcss.com/" target="_blank">Jekyll中文文档</a>、<a href="https://jekyllrb.com/" target="_blank">Jekyll英文文档</a>、<a href="http://jekyllthemes.org/" target="_blank">Jekyll主题列表</a>。
 
 ### <a name="about-github_pages"></a>关于GitHub Pages
 
- 　官方说法是Websites for you and your projects.[GitHub Pages](https://pages.github.com/)是一个免费的静态网站托管平台，由github提供，它具有以下特点：
+ 　官方说法是Websites for you and your projects.<a href="https://pages.github.com/" target="_blank">GitHub Pages</a>是一个免费的静态网站托管平台，由github提供，它具有以下特点：
 
 1. GitHub Pages 有 300M 免费空间，资料自己管理，保存可靠；
 2. 学着用 GitHub，享受 GitHub 的便利，上面有很多大牛，眼界会开阔很多；
@@ -45,12 +45,12 @@ tags: [GitHub Pages, Jekyll, 博客]
 
 ##### <a name="install-ruby"></a>安装Ruby
 
-jekyll本身基于Ruby开发，因此，想要在本地构建一个测试环境需要具有Ruby的开发和运行环境。在windows下，可以使用[Rubyinstaller](http://rubyinstaller.org/downloads/)安装，[ruby安装官方说明](http://www.ruby-lang.org/zh_cn/downloads/)，Windows下只需要保持默认状态一路下一步就可以了。
+jekyll本身基于Ruby开发，因此，想要在本地构建一个测试环境需要具有Ruby的开发和运行环境。在windows下，可以使用<a href="http://rubyinstaller.org/downloads/" target="_blank">Rubyinstaller</a>安装，<a href="http://www.ruby-lang.org/zh_cn/downloads/" target="_blank">ruby安装官方说明</a>，Windows下只需要保持默认状态一路下一步就可以了。
 
 
 ##### <a name="install-rubydev"></a>安装RubyDevKit
 
-从这里[下载DevKit](http://rubyinstaller.org/downloads/)，注意版本要与Ruby版本一致。  
+从这里<a href="http://rubyinstaller.org/downloads/" target="_blank">下载DevKit</a>，注意版本要与Ruby版本一致。  
 
 下载下来的是一个sfx格式的文件，如果你安装有7-zip，可以直接双击，它会自解压到你所选择的目录。  
 
@@ -71,14 +71,14 @@ jekyll本身基于Ruby开发，因此，想要在本地构建一个测试环境�
 
 ##### <a name="install-git"></a>安装Git
 
-[Git下载](https://git-scm.com/downloads/)
+<a href="https://git-scm.com/downloads/" target="_blank">Git下载</a>
   
 创建本地仓库myblog
   
 `$ git init myblog`
 
 ##### <a name="install-bundler"></a>安装Bundler
-建议使用[Bundler](http://bundler.io/)来安装和运行Jekyll。
+建议使用<a href="http://bundler.io/" target="_blank">Bundler</a>来安装和运行Jekyll。
   
 直接使用下面命令即可：   
 
@@ -105,11 +105,11 @@ gem 'github-pages', group: :jekyll_plugins
   
 `$ bundle exec jekyll serve`
   
-在浏览器里输入： [http://localhost:4000](http://localhost:4000)，就可以看到你的博客效果了。
+在浏览器里输入： <a href="http://localhost:4000" target="_blank">http://localhost:4000</a>，就可以看到你的博客效果了。
 
 ![](/assets/images/posts/jekyll/mybloghome.png)
 
-so easy !(PS:说起来都是泪啊，国内的网络你懂得，下载安装有点慢请耐心等待，或者使用[淘宝源](https://npm.taobao.org/))
+so easy !(PS:说起来都是泪啊，国内的网络你懂得，下载安装有点慢请耐心等待，或者使用<a href="https://npm.taobao.org/" target="_blank">淘宝源</a>)
 
 
 #### 目录结构
@@ -142,7 +142,7 @@ so easy !(PS:说起来都是泪啊，国内的网络你懂得，下载安装有�
 
 ```
 
-这些目录结构以及具体的作用可以参考 [官网文档](http://jekyll.com.cn/docs/structure/) 
+这些目录结构以及具体的作用可以参考 <a href="http://jekyll.com.cn/docs/structure/" target="_blank">官网文档</a>
 
 进入 _config.yml 里面，修改成你想看到的信息，重新 jekyll server ，刷新浏览器就可以看到你刚刚修改的信息了。
 
@@ -150,7 +150,7 @@ so easy !(PS:说起来都是泪啊，国内的网络你懂得，下载安装有�
 
 ### <a name="push-to-server"></a>部署到服务器
 
-我这里讲的是部署到 Github Page 创建一个 github 账号，然后创建一个跟你账户名一样的仓库，如我的 github 账户名叫 [skylarklxlong](https://github.com/skylarklxlong)，我的 github 仓库名就叫 [skylarklxlong.github.io](https://github.com/skylarklxlong/skylarklxlong.github.io)，创建好了之后，把刚才建立的 myblog 项目 push 到 username.github.io仓库里去（username指的是你的github用户名），检查你远端仓库已经跟你本地 myBlog 同步了，然后你在浏览器里输入 username.github.io ，就可以访问你的博客了。
+我这里讲的是部署到 Github Page 创建一个 github 账号，然后创建一个跟你账户名一样的仓库，如我的 github 账户名叫 <a href="https://github.com/skylarklxlong" target="_blank">skylarklxlong</a>，我的 github 仓库名就叫 <a href="https://github.com/skylarklxlong/skylarklxlong.github.io" target="_blank">skylarklxlong.github.io</a>，创建好了之后，把刚才建立的 myblog 项目 push 到 username.github.io仓库里去（username指的是你的github用户名），检查你远端仓库已经跟你本地 myBlog 同步了，然后你在浏览器里输入 username.github.io ，就可以访问你的博客了。
 
 ### <a name="writing"></a>编写文章
 
@@ -185,7 +185,7 @@ tags: tag标签的分类，如：tags: 随笔
 
 虽然博客部署完成了，你会发现博客太简单不是你想要的，如果你喜欢我的模板的话，可以使用我的模板。
 
-首先你要获取的我博客，[Github项目地址](https://github.com/skylarklxlong/skylarklxlong.github.io.git)，你可以直接[点击下载博客](https://github.com/skylarklxlong/skylarklxlong.github.io/archive/master.zip)，进去skylarklxlong.github.io/ 目录下， 使用命令部署本地服务 
+首先你要获取的我博客，<a href="https://github.com/skylarklxlong/skylarklxlong.github.io.git" target="_blank">Github项目地址</a>，你可以直接<a href="https://github.com/skylarklxlong/skylarklxlong.github.io/archive/master.zip" target="_blank">点击下载博客</a>，进去skylarklxlong.github.io/ 目录下， 使用命令部署本地服务 
 
 ```
 $ jekyll server   
@@ -211,9 +211,9 @@ $ jekyll server
 
 
 ### <a name="reference-data"></a>参考资源
-* [潘柏信-Jekyll搭建个人博客](http://baixin.io/2016/10/jekyll_tutorials1/) 
-* [GitHub Pages官方文档](https://help.github.com/articles/setting-up-your-github-pages-site-locally-with-jekyll/)
-* [一步步在GitHub上创建博客主页](http://www.pchou.info/ssgithubPage/2014-07-04-build-github-blog-page-08.html)    
+* <a href="http://baixin.io/2016/10/jekyll_tutorials1/" target="_blank">潘柏信-Jekyll搭建个人博客</a> 
+* <a href="https://help.github.com/articles/setting-up-your-github-pages-site-locally-with-jekyll/" target="_blank">GitHub Pages官方文档</a>
+* <a href="http://www.pchou.info/ssgithubPage/2014-07-04-build-github-blog-page-08.html" target="_blank">一步步在GitHub上创建博客主页</a>    
   
 
 转载请注明：[XueLong的博客](http://himakeit.online) » [使用Jekyll + GitHub Pages搭建个人博客](http://himakeit.online/2017/08/jekyll-blog-build/)  
