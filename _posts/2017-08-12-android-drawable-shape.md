@@ -129,7 +129,7 @@ tags: [Android, UI, Shape, Drawable]
 <a href="https://github.com/skylarklxlong/SkylarkDemo" target="_blank">项目源代码</a>   
 
 ### <a name="reference-data"></a>参考资源
-* <a href="http://blog.csdn.net/leoleohan/article/details/50688283/" target="_blank">Android搜索功能的案例，本地保存搜索历史记录</a>    
+* <a href="http://blog.csdn.net/feng88724/article/details/6398193" target="_blank">【Android UI】 Shape详解</a>    
 
 
 转载请注明：[XueLong的博客](http://himakeit.online) » [Android自定义图形-Shape的使用](http://himakeit.online/2017/08/android-drawable-shape/)  
